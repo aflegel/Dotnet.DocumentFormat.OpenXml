@@ -4,7 +4,7 @@ using DocumentFormat.OpenXml.Spreadsheet;
 
 namespace Dotnet.DocumentFormat.OpenXml
 {
-	public static partial class WorksheetPartExtensions
+	public static class WorksheetPartExtensions
 	{
 		public static Row AddRow(this WorksheetPart workSheet)
 		{

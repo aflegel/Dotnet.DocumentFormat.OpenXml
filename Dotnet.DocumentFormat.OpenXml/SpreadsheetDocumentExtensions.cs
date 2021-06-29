@@ -1,12 +1,10 @@
 ﻿using System;
-using System.Linq;
-using DocumentFormat.OpenXml;
 using DocumentFormat.OpenXml.Packaging;
 using DocumentFormat.OpenXml.Spreadsheet;
 
 namespace Dotnet.DocumentFormat.OpenXml
 {
-	public static partial class SpreadsheetDocumentExtensions
+	public static class SpreadsheetDocumentExtensions
 	{
 		public enum StyleIndex
 		{
